@@ -1,11 +1,3 @@
-# x = 'Erice'
-# y = 'Julia'
-
-# print(f"{x} loves {y}")
-
-# name = input('Name: ')
-
-# print(f"Your full name is: {name}")
 
 
 sport = input('Favorite Sport: ')
