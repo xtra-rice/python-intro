@@ -1,13 +1,3 @@
-# x,y,z = 'Julia', 'Franchesca', 'Borromeo'
-
-# print(x + y + z)
-
-# ulam = ['menudo', 'kaldereta', 'sinigang']
-# a,b,c = ulam
-
-# print(a,b,c)
-
-
 def add(x, y,):
     return x + y
 
