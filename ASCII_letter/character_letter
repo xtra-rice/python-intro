@@ -1,0 +1,76 @@
+def print_letter_J():
+    letter_J = [
+        "     J",
+        "     J",
+        "     J",
+        "     J",
+        "J    J",
+        " J  J",
+        "  JJ",
+    ]
+    for line in letter_J:
+        print(line)
+
+
+def print_letter_U():
+    letter_U = [
+        "U    U",
+        "U    U",
+        "U    U",
+        "U    U",
+        "U    U",
+        " UUU",
+    ]
+    for line in letter_U:
+        print(line)
+
+
+def print_letter_L():
+    letter_L = [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "L",
+        "LLLLL",
+    ]
+    for line in letter_L:
+        print(line)
+
+
+def print_letter_I():
+    letter_I = [
+        "IIIII",
+        "  I",
+        "  I",
+        "  I",
+        "  I",
+        "IIIII",
+    ]
+    for line in letter_I:
+        print(line)
+
+
+def print_letter_A():
+    letter_A = [
+        "    A",
+        "   A A",
+        "  A   A",
+        " AAAAA",
+        "A       A",
+    ]
+    for line in letter_A:
+        print(line)
+
+
+# Print the name "JULIA"
+print_letter_J()
+print()
+print_letter_U()
+print()
+print_letter_L()
+print()
+print_letter_I()
+print()
+print_letter_A()
