@@ -26,7 +26,7 @@ def withdraw():
     try:
         print(f"Balance: ₱{balance:.2f}")
         withdrawal_amount = float(input("Enter the amount you want to withdraw: "))
-        if withdrawal_amount >= balance:
+        if withdrawal_amount > balance or withdrawal_amount == 0:
             print("Insufficient funds. Withdraw canceled\n")
         else:
             balance -= withdrawal_amount
